@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Flex Bar</title>
+  </head>
+  <body>
+    <h1 class="text-center">Flex Bar With Bootstrap</h1>
+    <br /><br /><br />
+    <div class="container">
+      <nav class="bg-black text-light d-flex justify-content-between">
+        <section class="left d-flex">
+          <i
+            class="fa-solid fa-phone m-2 align-self-baseline"
+            style="color: #a69630"
+          ></i>
+          <p class="m-2 align-self-baseline d-none d-md-block">
+            +44 222 445556
+          </p>
+          <i
+            class="fa-brands fa-whatsapp m-2 align-self-baseline"
+            style="color: #bab51c"
+          ></i>
+          <p class="m-2 align-self-baseline d-none d-md-block">
+            +44 222 445556
+          </p>
+        </section>
+
+        <section class="right d-flex">
+          <i
+            class="fa-brands fa-twitter m-2 align-self-baseline"
+            style="color: #075ef2"
+          ></i>
+          <i
+            class="fa-brands fa-youtube m-2 align-self-baseline"
+            style="color: #075ef2"
+          ></i>
+          <i
+            class="fa-brands fa-square-instagram m-2 align-self-baseline"
+            style="color: #075ef2"
+          ></i>
+          <p class="d-none d-lg-block m-2 align-self-baseline">#clarusway</p>
+        </section>
+      </nav>
+      <section class="measure text-light text-center mt-5">
+        <div class="m-1 bg-black d-sm-none">Screen size XS</div>
+        <div class="m-1 bg-black d-none d-sm-block d-md-none">
+          Screen size SM
+        </div>
+        <div class="m-1 bg-black d-none d-md-block d-lg-none">
+          Screen size MD
+        </div>
+        <div class="m-1 bg-black d-none d-lg-block d-xl-none">
+          Screen size LG
+        </div>
+        <div class="m-1 bg-black d-none d-xl-block d-xxl-none">
+          Screen size XL
+        </div>
+        <div class="m-1 bg-black d-none d-xxl-block">Screen size XXL</div>
+      </section>
+    </div>
+  </body>
+</html>
